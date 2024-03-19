@@ -22,4 +22,10 @@ describe('MenuTitleComponent', () => {
     const component = fixture.componentInstance;
     expect(component).toBeTruthy();
   });
+
+  it('should have the "Direito a Deus" with tag <h1>', () => {
+    const fixture = TestBed.createComponent(MenuTitleComponent);
+    const component = fixture.debugElement.nativeElement;
+    expect(component.querySelector('h1').textContent).toContain('Direito a Deus');
+  });
 });

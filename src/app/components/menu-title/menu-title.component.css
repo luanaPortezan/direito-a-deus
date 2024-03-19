@@ -1,0 +1,21 @@
+.container__menu_title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container__menu_title > h1 {
+  font-weight: 900;
+  margin-bottom: 10px;
+  font-size: 73px;
+
+  display: flex;
+  text-align:center;
+
+}
+.container__menu_title > p {
+  margin-top: 10px;
+
+  display: flex;
+  text-align:center;
+}

@@ -30,27 +30,37 @@ describe('HomeComponent', () => {
   });
 
   it('should render the component MenuTitle', () => {
-    const component = fixture.debugElement.children.find((child) => child.name === 'app-menu-title');
+    const fixture = TestBed.createComponent(HomeComponent);
+    const component = fixture.debugElement.children
+      .find((child) => child.name === 'app-menu-title');
     expect(component).toBeTruthy();
   });
 
   it('should render the component CardBook', () => {
-    const component = fixture.debugElement.children.find((child) => child.name === 'app-card-book');
+    const fixture = TestBed.createComponent(HomeComponent);
+    const component = fixture.debugElement.children
+      .find((child) => child.name === 'app-card-book');
     expect(component).toBeTruthy();
   });
 
   it('should render the component CardAboutMe', () => {
-    const component = fixture.debugElement.children.find((child) => child.name === 'app-card-about-me');
+    const fixture = TestBed.createComponent(HomeComponent);
+    const component = fixture.debugElement.children
+      .find((child) => child.name === 'app-card-about-me');
     expect(component).toBeTruthy();
   });
 
   it('should render the component MenuFooter', () => {
-    const component = fixture.debugElement.children.find((child) => child.name === 'app-menu-footer');
+    const fixture = TestBed.createComponent(HomeComponent);
+    const component = fixture.debugElement.children
+      .find((child) => child.name === 'app-menu-footer');
     expect(component).toBeTruthy();
   });
-  
+
   it('should render the component MenuFooter', () => {
-    const component = fixture.debugElement.children.find((child) => child.name === 'app-menu-title');
+    const fixture = TestBed.createComponent(HomeComponent);
+    const component = fixture.debugElement.children
+      .find((child) => child.name === 'app-menu-title');
     expect(component).toBeTruthy();
   });
 });
