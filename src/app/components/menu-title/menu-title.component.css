@@ -1,21 +1,17 @@
 .container__menu_title {
+  /* border: solid 2px red; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
+
+  margin-top: 70px;
 }
 .container__menu_title > h1 {
   font-weight: 900;
-  margin-bottom: 10px;
-  font-size: 73px;
-
-  display: flex;
-  text-align:center;
-
+  font-size: 4.5rem;
 }
 .container__menu_title > p {
-  margin-top: 10px;
-
-  display: flex;
-  text-align:center;
+  font-size: 1.1rem;
 }

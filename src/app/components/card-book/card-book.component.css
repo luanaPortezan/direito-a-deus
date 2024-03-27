@@ -1,0 +1,59 @@
+.container__card-book {
+  padding-top: 5%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  position: relative;
+}
+
+.card-book__image {
+  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 330px;
+
+  position: relative;
+  z-index: 2;
+}
+
+.card-book__shadow {
+  background-color: rgb(65, 61, 61);
+  width: 100%;
+  height: 250px;
+
+  position: absolute;
+  top: 30%;
+  left: 0;
+
+  z-index: 1;
+}
+
+.card-book__text {
+  position: relative;
+  z-index: 2;
+
+  width: 100%;
+  max-width: 400px;
+
+  top: -20px;
+  left: 50px;
+
+  background-color: rgb(65, 61, 61);
+  color: bisque;
+
+  text-align: center;
+}
+
+.card-book__button {
+  position: relative;
+  z-index: 2;
+
+  top: 10px;
+  left: 50px;
+
+  background-color: rgb(65, 61, 61);
+  color: bisque;
+}
