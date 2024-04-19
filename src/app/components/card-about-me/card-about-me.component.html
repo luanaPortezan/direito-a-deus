@@ -1,12 +1,15 @@
-<div class="container__card-about-me">
-  <img class="container__card-about-me__image"
-  src="../../../assets/keila-guedes.png"
-  alt="foto da autora, Keila Guedes">
+<article class="card-about-me">
+  <figure class="card-about-me__image-container">
+    <img
+      class="card-about-me__image"
+      [src]="imageSource"
+      [alt]="imageAltText">
+  </figure>
 
-  <div class="container__card-about-me__text">
-    <h3>MINHA HISTÓRIA</h3>
+  <div class="card-about-me__content">
+    <h3 class="card-about-me__title">{{ title | uppercase }}</h3>
     <p>_________</p>
-    <p>Sou a Keila Guedes, servidora pública federal do judiciário e bacharelada em Direito. Apesar de ser natural de Fortaleza, considero-me uma mistura de cearense com natalense, pois foi na cidade de Natal (RN) onde vivi desde os primeiros meses de vida até os quatorze anos de idade. Desde 1995 resido na cidade de Brasília.</p>
-    <p>Aos 30 anos, contei acerca da minha orientação sexual para os meus pais. Em 2017, iniciei o ativismo pelos direitos das pessoas LGBTQIAP+, criando uma página direitolgbtqi no instagram. em 2021, criei a página direitoadeus, também no instagram. Atualmente é coordenadora da Regional Centro-Oeste da Associação Brasileira de Famílias Homotransafetivas (ABRAFH) e filiada a Aliança Nacional LGBTI.</p>
+    <p>{{ paragraph1 }}</p>
+    <p>{{ paragraph2 }}</p>
   </div>
-</div>
+</article>

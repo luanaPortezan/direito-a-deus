@@ -1,4 +1,4 @@
-.container__card-about-me {
+.card-about-me {
   margin-top: 10%;
 
   display: flex;
@@ -7,29 +7,31 @@
   align-items: center;
   text-align: center;
 
-  background-color: rgb(65, 61, 61);
-  color: rgb(255, 243, 228);
+  background-color: #413d3d;
+  color: #fff3e4;
 }
 
-.container__card-about-me__image {
+
+.card-about-me__image {
   filter: grayscale(95%);
   height: 650px;
 }
 
-.container__card-about-me__text > h3 {
-  background-color: rgb(65, 61, 61);
-  color: rgb(255, 243, 228);
+.card-about-me__title {
+  background-color: #413d3d;
+  color: #fff3e4;
 
   padding-left: 20%;
   font-size: 2.5rem;
   text-align: left;
 }
 
-.container__card-about-me__text > p {
+.card-about-me__content > p {
   padding-bottom: 5%;
   padding-left: 20%;
   padding-right: 20%;
   text-align: left;
-  background-color: rgb(65, 61, 61);
-  color: rgb(255, 243, 228);
+  background-color: #413d3d;
+  color: #fff3e4;
 }
+
