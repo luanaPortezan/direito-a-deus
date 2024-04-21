@@ -1,4 +1,4 @@
-.container__card-book {
+.card-book {
   padding-top: 5%;
 
   display: flex;
@@ -11,7 +11,7 @@
 }
 
 .card-book__image {
-  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px 10px #00000033;
   width: 100%;
   max-width: 330px;
 
@@ -20,7 +20,7 @@
 }
 
 .card-book__shadow {
-  background-color: rgb(65, 61, 61);
+  background-color: #413d3d;
   width: 100%;
   height: 250px;
 
@@ -41,8 +41,8 @@
   top: -20px;
   left: 50px;
 
-  background-color: rgb(65, 61, 61);
-  color: rgb(255, 243, 228);
+  background-color: #413d3d;
+  color: #fff3e4;
 
   text-align: center;
 }
@@ -54,6 +54,6 @@
   top: 10px;
   left: 50px;
 
-  background-color: rgb(65, 61, 61);
-  color: rgb(255, 243, 228);
+  background-color: #413d3d;
+  color: #fff3e4;
 }
